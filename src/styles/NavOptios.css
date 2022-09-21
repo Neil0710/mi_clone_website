@@ -1,0 +1,18 @@
+.navOptions {
+    /* display: none;*/
+    display: flex;
+    /* visibility: hidden; */
+    background-color: transparent;
+    justify-content: space-evenly;
+    /* padding: 2vmax;
+    padding-bottom: 7vmax; */
+    z-index: 1000; 
+}
+.navOptions:hover {
+    display: flex;
+    background-color: white;
+    /* justify-content: space-evenly; */
+    padding: 2vmax;
+    padding-bottom: 7vmax;
+    z-index: 1000;
+}

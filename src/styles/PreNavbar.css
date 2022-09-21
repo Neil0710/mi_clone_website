@@ -1,0 +1,80 @@
+.preNav {
+    background-color: #212121;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    color: white;
+    height: 40px;
+    z-index: 200;
+    /* line-height: 40px; */
+    /* position: fixed; */
+}
+
+.preNav>div {
+    padding: 0 4vmax;
+    display: flex;
+    align-items: center;
+}
+
+.preNav>div>a {
+    
+    color: #b0b0b0;
+    font-size: 0.725rem;
+    font-family: ProximaNova, Arial, Sans-serif;
+    font-weight: 300;
+    margin: 0 18px;
+    text-decoration: none;
+}
+
+#firstELement {
+    padding-left: 4.4vmax;
+}
+
+.preNav>div>span {
+    color: #424242;
+    font-size: 0.8vmax;
+    font-weight: 200;
+}
+.arrow {
+    border: solid #b0b0b0;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    margin: 0 0px 4px 0;
+    outline: none;
+}
+
+.down {
+    transform: rotate(45deg);
+    /* translate: 1px; */
+}
+
+.preNavDropdown a{
+    color: #b0b0b0;
+        font-size: 0.725rem;
+        font-family: ProximaNova, Arial, Sans-serif;
+        font-weight: 300;
+        margin: 0 18px;
+        text-decoration: none;
+        outline: none;
+}
+.preNav>div svg {
+    fill: rgb(180, 180, 180);
+}
+
+.cartIcon {
+    display: flex;
+    align-items: center;
+}
+
+
+.preNav>div>a:hover {
+    color: white;
+}
+
+.arrow:hover {
+    border: solid #FF6900;
+    border-width: 0 2px 2px 0;
+}
+.preNav>div svg:hover {
+    fill: #FF6900;
+}

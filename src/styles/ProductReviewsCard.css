@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.ProductReviewsCard {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0.5vmax;
+    background-color: white;
+    /* padding-bottom: 2vmax; */
+    transition: all 0.2s;
+    width: 39.5vw;
+}
+
+.ProductReviewsCard:hover {
+    transform: translateY(-0.2vmax);
+    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.36);
+}
+
+.ProductReviewsCard>div:last-child {
+    box-sizing: border-box;
+    padding: 22px 90px 30px 22px;
+    color: #5e5e5e;
+    cursor: pointer;
+    background-color: white;
+}
+
+.ProductReviewsCard>div>span {
+    line-height: 1;
+    font-size: 13px;
+    font-weight: 700;
+    padding-right: 1.8vmax;
+    color: #5d5c5c;;
+}
+
+h5{
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+#price {
+    margin-left: 32px;
+    color: #ff6700;
+    font-weight: bolder;
+}

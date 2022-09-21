@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.HotAccessoriesMenu {
+    display: flex;
+    justify-content: center;
+}
+
+.HotAccessoriesLink {
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    font-size: 16px;
+    color: #757575;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0.7vmax;
+    padding: 0.3vmax 0;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 400;
+    font-family: ProximaNova, Arial, Sans-serif;
+    line-height: 1.5;
+
+}
+
+.HotAccessoriesLink:hover {
+    text-decoration: none;
+    color: #ff6700;
+    border-bottom: 1px solid orangered;
+}
